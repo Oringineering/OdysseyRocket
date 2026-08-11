@@ -15,6 +15,10 @@ A scratch-built model rocket with a von Karman ogive nosecone housing a dedicate
 (PLACEHOLDER LINK TO TRY THE PROJECT VIA SIMULATION)
 
 ## Components
+Avionics Bay
+- Arduino Nano
+- MPU-6050
+- MS5611
 
 ## PCB Design
 
