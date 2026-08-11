@@ -7,6 +7,8 @@ A scratch-built model rocket with a von Karman ogive nosecone housing a dedicate
 
 ## Specifications/Firmware
 
+(PLACEHOLDER LINK TO TRY THE PROJECT VIA SIMULATION)
+
 ## PCB Design
 
 ## Bill of Materials (BOM)
