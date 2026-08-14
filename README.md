@@ -17,9 +17,11 @@ A scratch-built model rocket with a von Karman ogive nosecone housing a dedicate
 
 ## Components
 Avionics Bay
-- Arduino Nano
-- MPU-6050
-- MS5611
+- Arduino Nano v3
+- Adafruit MPU6050 6-DoF Accelerometer and Gyro PCB
+- Adafruit MicroSD card breakout board+
+- Adafruit BMP388 - Precision Barometric Pressure and Altimeter - STEMMA QT
+- Pololu 5V Step-Up/Step-Down Voltage Regulator S13V10F5 
 
 ## PCB Design
 
