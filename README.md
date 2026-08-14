@@ -6,6 +6,7 @@ A scratch-built model rocket with a von Karman ogive nosecone housing a dedicate
 
 
 ## Features (WIP - TBD)
+- The Orion Flight Computer, a custom PCB that will serve as a point of data collection throughout the duration of the flight. 
 (Everything is a WIP at the moment)
 - 3D-printed PLA von Karman ogive nosecone, custom-fit to a 660x60mm AusPost postal tube body (2mm wall), friction fitted via a 50x55mm shoulder insert.
 - Removable avionics bay housed in the nosecone, isolated from the body tube for easy access between flight attempts.
@@ -23,7 +24,11 @@ Avionics Bay
 ## PCB Design
 
 Below is a schematic for the avionics computer. PCB configuration will commence soon.
-<img width="790" height="651" alt="image" src="https://github.com/user-attachments/assets/e11cd32b-44ec-4a62-aad3-a419af19c0ca" />
+<img width="1255" height="861" alt="image" src="https://github.com/user-attachments/assets/a29bdd92-52ac-4ebd-977f-1abfb3b48f3d" />
+
+I also began doing the KiCad footprints for the required components I will be incorporating into the PCB.
+<img width="1308" height="457" alt="image" src="https://github.com/user-attachments/assets/198b8696-6429-4f98-998c-28d389650036" />
+
 
 
 
