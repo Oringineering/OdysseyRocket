@@ -12,3 +12,11 @@ I just spent the first day familiarising myself with  industry software, such as
 
 ## Day 2 - Body Schematics and Design (1 hour 39 minutes)
 I introduced myself to OpenRocket
+
+
+## Day 3 -
+
+
+## Day 4 -
+
+## Day 5 - Footprint and Schematics Finalisation
