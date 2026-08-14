@@ -23,7 +23,8 @@ Avionics Bay
 ## PCB Design
 
 Below is a schematic for the avionics computer. PCB configuration will commence soon.
-<img width="771" height="643" alt="image" src="https://github.com/user-attachments/assets/1d0c0725-7db8-434b-a9f3-05222b950172" />
+<img width="790" height="651" alt="image" src="https://github.com/user-attachments/assets/e11cd32b-44ec-4a62-aad3-a419af19c0ca" />
+
 
 
 
