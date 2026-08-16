@@ -23,6 +23,7 @@ Avionics Bay
 - Adafruit MicroSD card breakout board+
 - Adafruit BMP388 - Precision Barometric Pressure and Altimeter - STEMMA QT
 - Pololu 5V Step-Up/Step-Down Voltage Regulator S13V10F5
+
 Rocket Body
 - PLA von Karman (Haack series) nose cone
 - AusPost 660x60mm Postal Tube
