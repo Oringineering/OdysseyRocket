@@ -1,7 +1,7 @@
 ---
 Title: Odyssey Rocket
 Author: Orin Gibson
-Description: A rocket prototype...but I know nothing about rockets or the software that can be utilised to make it.
+Description: A rocket prototype...but I know nothing about rockets or the software that can be utilised to make one.
 Creation_Date: 01-08-2026 (DD/MM/YY)
 ---
 
