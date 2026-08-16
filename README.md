@@ -13,6 +13,7 @@ A scratch-built model rocket with a von Karman ogive nosecone housing a dedicate
 - TBD (Arduino or ESP32) flight computer logging acceleration (IMU) and altitude (barometer) to an onboard SD card.
 - TBD Companion App (parse logged CSV and plot altitude, acceleration and apogee after recovery).
 - Can safely be launched in a park without breaking Western Australian laws: it must not weigh more than 500g, carry no more than 25g of propellant, be within 5km of an aerodrome, nor exceed an apogee of 400 feet (121.92m).
+  
 (PLACEHOLDER LINK TO TRY THE PROJECT VIA SIMULATION)
 
 ## Components
