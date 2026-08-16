@@ -7,7 +7,7 @@ Creation_Date: 01-08-2026 (DD/MM/YY)
 
 ### Total Time Spent: X hours
 
-##Week 1
+## Week 1
 -----
 
 # Day 1 - Learning Bit by Bit (35 minutes)
