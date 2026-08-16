@@ -5,7 +5,7 @@ Description: A rocket prototype...but I know nothing about rockets or the softwa
 Creation_Date: 01-08-2026 (DD/MM/YY)
 ---
 
-### Total Time Spent: X hours
+### Total Time Spent: ~13 hours 41 minutes
 -----
 ## Week 1
 -----
@@ -37,4 +37,4 @@ My reasoning for choosing these products is that they mostly have excellent docu
 I based the component schematics off technical designs under Adafruit's respective Eagle files on each parts' repository. For the other components (excluding the IMU) I managed to source them from their respective websites/GitHub repositories. After each component was created, I put them into the overall schematic design. This marked a successful implementation, but there were some underlying mistakes nonetheless.
 
 # Day 6 - Schematic Finalisation (2 hours 10 minutes)
-I revised the individual schematics, and I realised that the IMU wasn't well documented enough, and that I would be eye balling measurements. I settled on the Adafruit MPU6050 IMU, so I had to redo the IMU schematic as Adafruit's version contains 12 pins (6 on either side) compared to the industry standard 6 pins on one side only. With this finalised, I shifted my focus to creating the individual footprints for the components. 
+I revised the individual schematics, and I realised that the IMU wasn't well documented enough, and that I would be eye balling measurements. I settled on the Adafruit MPU6050 IMU, so I had to redo the IMU schematic as Adafruit's version contains 12 pins (6 on either side) compared to the industry standard 6 pins on one side only. With this finalised, I shifted my focus to creating the individual footprints for the components. I then finalised each component so that it was constructed in a manner that would be efficaciously transferable to the final part, the PCB design.
