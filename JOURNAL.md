@@ -10,7 +10,7 @@ Creation_Date: 01-08-2026 (DD/MM/YY)
 # Day 1 - Learning Bit by Bit (35 minutes)
 I just spent the first day familiarising myself with  industry software, such as SolidWorks, to prepare me for the CAD work that I would have to do for components such as the nose cone and other internal components that would later have to be 3D printed.
 
-# Day 2 - Body Schematics and Design (1 hour 39 minutes)
+# Day 2 - Body Design (1 hour 39 minutes)
 I introduced myself to OpenRocket, an open-source software that lets you visualise your rocket and run simulations on it. I managed to grasp a basic understanding of how the software works: you select the components you want for your rocket as well as determining the appropriateness of certain features to optimise factors like stability, CP (centre of pressure), and CG (centre of gravity). Something that I initially struggled with was producing a stable rocket. From what I later discerned (https://www.spacecad.com/posts/model-rocket-stability-prediction/), that my calibre (stability-wise) was not optimal and was why the rocket wasI just spent the first day familiarising myself with  industry software, such as SolidWorks, to prepare me for the CAD work that I would have to do for components such as the nose cone and other internal components that would later have to be 3D printed.
 
 # Day 2 - Body Schematics and Design (1 hour 39 minutes)
@@ -24,5 +24,9 @@ Another thing I didn't consider was the length of my nose cone. Originally, I ha
 With these limitations in place, I settled for a nose cone length of 18cm. It won't mitigate drag as the original design, but it is sufficiently long to the point where that shouldn't be much of a problem. 23.5cm of total length including the shoulder would permit it to print on an entry level 3D printer with a maximum build height of 24.5-25cm. 
 
 # Day 4 - Schematic Design 
+I started my work on KiCad today. KiCad was a new challenge because I perform abhorrently in Electrical Engineering units. Nonetheless, it was a journey filled with amazing discoveries. 
+To begin, I watched a tutorial series on how to create a schematic in KiCad. I started by assembling all the individual parts: the Adafruit MPU6050, AdaFruit BMP388, Adafruit MicroSD + breakout (FINISH LISTING PARTS HERE). I also sourced a standard Arduino Nano v3 from the component library KiCad has, where all I switched around was the function of Pin 28 to ensure that it wouldn't break any of KiCad's Electrical Rules Check (ERS).
+
+My reasoning for choosing these products is that they have excellent documentation and are readily accessible compared to other manufacturers who would take months to manufacture these parts. I based the component schematics off 
 
 ## Day 5 - Footprint and Schematics Finalisation
