@@ -22,7 +22,11 @@ Avionics Bay
 - Adafruit MPU6050 6-DoF Accelerometer and Gyro PCB
 - Adafruit MicroSD card breakout board+
 - Adafruit BMP388 - Precision Barometric Pressure and Altimeter - STEMMA QT
-- Pololu 5V Step-Up/Step-Down Voltage Regulator S13V10F5 
+- Pololu 5V Step-Up/Step-Down Voltage Regulator S13V10F5
+Rocket Body
+- PLA von Karman (Haack series) nose cone
+- AusPost 660x60mm Postal Tube
+- Plywood Fins
 
 ## PCB Design
 
