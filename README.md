@@ -42,6 +42,6 @@ I also began doing the KiCad footprints for the required components I will be in
 When it comes to designing projects like these, it's all about discovery and learning new processes to determine intuitive answers to problems around us. I was motivated by a strong willingness to learn industry standard software — SolidWorks, OpenRocket, and KiCad — alongside physical processes — soldering, product assembly, and calculations to determine aerodynamics. As a First-Year Engineering Student, I hope to apply these newly learned skills in my future endeavours!
 
 ## Bill of Materials (BOM)
-
+https://github.com/Oringineering/OdysseyRocket/blob/main/BOM.md
 
 ## Credits
