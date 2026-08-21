@@ -6,11 +6,8 @@ A scratch-built model rocket with a von Karman ogive nosecone housing a dedicate
 
 
 ## Features (WIP - TBD)
-- The Orion Flight Computer, a custom PCB that will serve as a point of data collection throughout the duration of the flight. 
-(Everything is a WIP at the moment)
+- The Orion Flight Computer, a custom PCB that will log acceleration (IMU) and altitude (barometer) data to an onboard SD card.
 - 3D-printed PLA von Karman ogive nosecone, custom-fit to a 660x60mm AusPost postal tube body (2mm wall), friction fitted via a 50x55mm shoulder insert.
-- Removable avionics bay housed in the nosecone, isolated from the body tube for easy access between flight attempts.
-- TBD (Arduino or ESP32) flight computer logging acceleration (IMU) and altitude (barometer) to an onboard SD card.
 - TBD Companion App (parse logged CSV and plot altitude, acceleration and apogee after recovery).
 - Can safely be launched in a park without breaking Western Australian laws: it must not weigh more than 500g, carry no more than 25g of propellant, be within 5km of an aerodrome, nor exceed an apogee of 400 feet (121.92m).
   
