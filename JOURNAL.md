@@ -43,4 +43,17 @@ I based the component schematics off technical designs under Adafruit's respecti
 I revised the individual schematics, and I realised that the IMU wasn't well documented enough, and that I would be eye balling measurements. I settled on the Adafruit MPU6050 IMU, so I had to redo the IMU schematic as Adafruit's version contains 12 pins (6 on either side) compared to the industry standard 6 pins on one side only. With this finalised, I shifted my focus to creating the individual footprints for the components. I then finalised each component so that it was constructed in a manner that would be efficaciously transferable to the final part, the PCB design.
 
 
-# Day 7 - 
+# Day 7 - PCB Completion and Nose Cone Construction (9 hours 5 minutes)
+I dedicated the entirety of the day to focus on two key questions: "How do I build a solid PCB?" and "How should I design the nose cone appropriately?". Starting with the PCB I went down to business. I learnt countless new concepts such as: the purpose of having wider wiring to sustain a greater current flow, the cool nature of 'vias' (I like to think of them as a wormhole that takes you from one side of the PCB to the next), and how to optimally set out a PCB so the wiring arrangement doesn't become a 'rat's nest'. I spent a fair bit of time discerning the optimal layout. 
+
+<img width="851" height="538" alt="image" src="https://github.com/user-attachments/assets/bead5b19-64f0-429b-97ad-c972e34b6eaa" />
+
+I settled on this layout because placing the Arduino in the centre allowed the surrounding components to be positioned on either side according to the pins they needed to connect to. I also made a neat logo/decal for the Orion Space Computer in the bottom left of the PCB using Canva in about 5 minutes (I searched for a photo of the Orion constellation and modelled it off that as it seemed quite fitting. In addition to this, I had to go back and fix some of the schematics and footprints for components like the BMP388 and the MicroSD breakout board + as the pins were incorrectly labelled (slight deviation like 3V3 vs 3Vo, SCL vs SCK, VCC vs VIN, etc). Troubleshooting took up the majority of my time today. I'd say finalising the PCB took about 7 out of 9 hours to do. A couple notable errors included setting the font size to 0.7mm when the readable font size for most manufacturers is 1mm, copper fill errors, and having thick wires overlap with certain pins/areas causing errors to show up when a check was run.
+
+<img width="1299" height="718" alt="image (1)" src="https://github.com/user-attachments/assets/9df258ea-1186-4543-ab7a-8dcb158ac968" />
+After ghosting AutoCad for a while, I finally decided it was the right time to tackle it! I started out really confused given that I tried to navigate it without much help. Long story short, I drew an equation based on a series of dot points from the Haack series to make an aerodynamic nose cone. I then attached horizontal and vertical structure lines (these being 30mm for the radius and 180mm for the length) and revolved the Haack series line around the axis as such. This produced a 3D shape. I then centred a 2D circle on the flat end of the extruded shape and extruded that circle to produce the shoulder for the nose cone.
+
+The rest of this session was spent editing the GitHub to ensure that I am up to speed and ready to ship in the coming days.
+
+# Day 8 - [PLACEHOLDER] (TIME ELAPSED)
+ 
