@@ -12,9 +12,12 @@ Creation_Date: 01-08-2026 (DD/MM/YY)
 
 # Day 1 - Learning Bit by Bit (35 minutes)
 I just spent the first day familiarising myself with  industry software, such as SolidWorks, to prepare me for the CAD work that I would have to do for components such as the nose cone and other internal components that would later have to be 3D printed.
+<img width="622" height="359" alt="image" src="https://github.com/user-attachments/assets/b25b900b-4baf-4c67-87d2-81acef494d4c" />
+
 
 # Day 2 - Body Schematics and Design (1 hour 39 minutes)
 I introduced myself to OpenRocket, an open-source software that lets you visualise your rocket and run simulations on it. I managed to grasp a basic understanding of how the software works: you select the components you want for your rocket as well as determining the appropriateness of certain features to optimise factors like stability, CP (centre of pressure), and CG (centre of gravity). Something that I initially struggled with was producing a stable rocket. From what I later discerned (https://www.spacecad.com/posts/model-rocket-stability-prediction/), that my calibre (stability-wise) was not optimal and was why the rocket was underperforming in simulations. I had a .cal of over 2.8 initially thinking that the higher the .cal the more stable the rocket would be, but this would only eventuate to poorer aerodynamics. 
+<img width="1600" height="856" alt="image (1)" src="https://github.com/user-attachments/assets/f1e6559c-ee2d-4e86-a7d4-3ab3ccad80a4" />
 
 # Day 3 - Functionality Refinements (1 hour 28 minutes)
 This day was spent rectifying the blunders made on Day 2. With newfound awareness and a strong resolve to improve upon yesterday's faults, I put my head down and got working. This tutorial really made me think: https://www.youtube.com/watch?v=oqe0lTp1WH0&list=PLulIhjxR7aZQ4coWt7MRHb4xt9wz0Fz6h. I had no idea about the purpose of a shoulder (links the nose cone to the rocket body) and tabs (the components that stick inside the rocket to ground the rocket). With these implementations taken into consideration, my model became FAR more stable and it was truly nice to see this unfurl. 
@@ -38,3 +41,6 @@ I based the component schematics off technical designs under Adafruit's respecti
 
 # Day 6 - Schematic Finalisation (2 hours 10 minutes)
 I revised the individual schematics, and I realised that the IMU wasn't well documented enough, and that I would be eye balling measurements. I settled on the Adafruit MPU6050 IMU, so I had to redo the IMU schematic as Adafruit's version contains 12 pins (6 on either side) compared to the industry standard 6 pins on one side only. With this finalised, I shifted my focus to creating the individual footprints for the components. I then finalised each component so that it was constructed in a manner that would be efficaciously transferable to the final part, the PCB design.
+
+
+# Day 7 - 
