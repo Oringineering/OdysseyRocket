@@ -1,4 +1,4 @@
-# 🚀 Odyssey Rocket
+# Odyssey Rocket
 
 > **A model rocket prototype built from accessible materials, custom-designed components, and a completely self-developed avionics system.**
 
