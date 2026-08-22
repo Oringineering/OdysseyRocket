@@ -14,7 +14,7 @@ The possibilities are endless! This model can be constructed as a relatively low
 
 
 
-# Features
+## Features
 
 
 - The Orion Flight Computer, a custom PCB that will log acceleration (IMU) and altitude (barometer) data to an onboard SD card.
