@@ -4,7 +4,7 @@
 This document outlines the process used to prepare and manufacture the Orion Flight Computer PCB through JLCPCB.
 
 ----
-## Notes
+## Note:
 
 The only extra thing I changed was the colour of the PCB because red suited the decal on the PCB better than the standard green did.
 
