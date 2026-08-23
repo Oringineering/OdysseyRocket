@@ -3,6 +3,8 @@
 This document outlines the process used to prepare and manufacture the Orion Flight Computer PCB through JLCPCB.
 
 ---
+Notes:
+- The only extra thing I changed was the colour of the PCB because I thought that red looked cooler (especially for the decal).
 
 ## 1. Final Checks in KiCad
 
@@ -54,6 +56,3 @@ Example:
 ```text
 PCB/Fabrication/Gerbers/
 
-
-Notes:
-- The only extra thing I changed was the colour of the PCB because I thought that red looked cooler (especially for the decal).
