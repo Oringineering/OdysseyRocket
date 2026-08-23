@@ -1,4 +1,4 @@
-#This document outlines the process used to prepare and manufacture the Orion Flight Computer PCB through JLCPCB.
+# This document outlines the process used to prepare and manufacture the Orion Flight Computer PCB through JLCPCB.
 
 ## Notes
 
