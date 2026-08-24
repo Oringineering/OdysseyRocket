@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-arduino-nano",
+      "id": "nano",
+      "top": -50.8,
+      "left": 1.3,
+      "rotate": 270,
+      "attrs": {}
+    },
+    { "type": "wokwi-mpu6050", "id": "imu1", "top": -101.78, "left": -64.88, "attrs": {} },
+    { "type": "board-bmp180", "id": "bmp1", "top": 5.44, "left": -66.94, "attrs": {} },
+    {
+      "type": "wokwi-microsd-card",
+      "id": "sd1",
+      "top": -77.23,
+      "left": 148.33,
+      "rotate": 180,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [ "bmp1:VCC", "nano:5V", "red", [ "h0" ] ],
+    [ "bmp1:GND", "nano:GND.1", "black", [ "h0" ] ],
+    [ "bmp1:SDA", "nano:A4", "green", [ "h0" ] ],
+    [ "bmp1:SCL", "nano:A5", "green", [ "h0" ] ],
+    [ "imu1:VCC", "nano:5V", "red", [ "v0" ] ],
+    [ "imu1:GND", "nano:GND.1", "black", [ "v0" ] ],
+    [ "imu1:SCL", "nano:A5", "green", [ "v0" ] ],
+    [ "imu1:SDA", "nano:A4", "green", [ "v0" ] ],
+    [ "imu1:AD0", "nano:GND.2", "green", [ "v0" ] ],
+    [ "sd1:VCC", "nano:5V", "red", [ "h0" ] ],
+    [ "sd1:GND", "nano:GND.1", "black", [ "h0" ] ],
+    [ "sd1:SCK", "nano:13", "green", [ "h0" ] ],
+    [ "sd1:DO", "nano:12", "green", [ "h0" ] ],
+    [ "sd1:CS", "nano:10", "green", [ "h0" ] ],
+    [ "sd1:DI", "nano:11", "green", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}
