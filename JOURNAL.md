@@ -319,9 +319,36 @@ The rest of the session was spent organising the GitHub repository and preparing
 
 ---
 
-# Day 8 — [PLACEHOLDER]
-### ⏱️ TIME ELAPSED
+# Day 8 — Rocket Nose Cone Amendments and GitHub Repo Editing!
+### ⏱️ 5 hours 55 minutes
 
-*Development continues...*
+I spent an ungodly amount of time scanning through my GitHub Repo, overhauling it and optimising it in preparation for shipping. There’s still a fair amount of work to do, but I got through a fair chunk of it.
+
+I also made an updated model for the Rocket Nose Cone. It’s far from complete as I need to discern the appropriateness of measurements when incorporating the shock cord module into the shoulder linked to the nose cone. I aim to finish a fair majority of this project tomorrow so stay tuned!
+
+
+<img width="549" height="607" alt="image" src="https://github.com/user-attachments/assets/22af455d-b396-4981-8c14-b56949e1aee3" />
 
 ---
+
+# Day 9 — Rocket Nose Finalisation and more GitHub Repo Editing
+### ⏱️ 6 hours 30 minutes
+
+Today I spent hours of moiling away at SolidWorks:
+
+Learning how to add Fillets
+Creating a boss structure
+Building the nose cone module and the shock cord section that attaches to the eyebolt.
+
+---
+
+# Day 10 — SHIPMENT
+### ⏱️ 1 hour 33 minutes
+
+GitHub is complete.
+Simulations are complete.
+Prototype model is done
+
+<img width="675" height="900" alt="image" src="https://github.com/user-attachments/assets/46421205-73e9-46b5-b13f-b2a4308033a8" />
+
+
