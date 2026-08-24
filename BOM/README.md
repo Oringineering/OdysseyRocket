@@ -19,4 +19,6 @@ The estimated total cost of the Odyssey Rocket, including the Orion Flight Compu
 
 This estimate represents the approximate initial cost of constructing the Odyssey Rocket and Orion Flight Computer using the currently selected components.
 
-Prices may vary depending on supplier availability, shipping costs, and exchange rates.
+
+
+This also does NOT include other variable costs that must be taken into account in its construction so the true price is likely higher than this by a fair margin. Prices will vary based on supplier availability, shipping costs, and exchange rates.
