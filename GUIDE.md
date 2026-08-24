@@ -25,7 +25,7 @@ Before beginning construction, gather the required components listed in the proj
 - SkyAngle Classic 20 parachute
 - Estes E12-4 model rocket motor
 
-Further information can be found in the [Rocket Hardware BOM](BOM/Rocket_Hardware.md).
+Further information can be found in the [Rocket Hardware BOM](BOM/Rocket_Hardware_BOM.md).
 
 ### Orion Flight Computer
 
@@ -38,7 +38,7 @@ If the avionics system is being used, the primary components are:
 - Pololu S13V10F5 voltage regulator
 - Orion Flight Computer PCB
 
-Further information is available in the [Firmware](FIRMWARE/) and [PCB](PCB/) folders.
+Further information is available in the [Firmware](Firmware/) and [PCB](PCB/) folders.
 
 ---
 
@@ -59,7 +59,7 @@ The nose cone should fit securely into the tube without requiring excessive forc
 
 ## 3. Manufacture the Fins
 
-Odyssey uses three plywood fins based on the current OpenRocket model.
+Odyssey uses three birch-plywood fins based on the current OpenRocket model.
 
 ### Fin Dimensions
 
@@ -68,15 +68,15 @@ Odyssey uses three plywood fins based on the current OpenRocket model.
 | Number of fins | 3 |
 | Root chord | 70 mm |
 | Tip chord | 55 mm |
-| Height | 45 mm |
+| Height | 40 mm |
 | Sweep length | 26 mm |
-| Sweep angle | 30° |
+| Sweep angle | 33° |
 | Thickness | 3 mm |
 | Root fillet radius | 2 mm |
 | Material | Birch plywood |
 | Cross-section | Rounded |
 
-The fins also use **through-the-wall tabs**, allowing the fins to pass through the postal tube and connect with the internal motor-mount region.
+The fins use **through-the-wall tabs**, allowing the fins to pass through the postal tube and connect with the internal motor-mount region.
 
 ### Fin Tab Dimensions
 
@@ -91,7 +91,7 @@ The easiest method is to manufacture one accurate fin first and use it as a temp
 
 Once all three fins have been cut, stack them together and lightly sand the edges until they are approximately identical.
 
-The leading and trailing edges can also be rounded slightly to better match the OpenRocket model.
+The leading and trailing edges can also be rounded slightly to better represent the current OpenRocket model.
 
 ---
 
@@ -181,17 +181,17 @@ The Odyssey nose cone is a custom **von Kármán / Haack-series nose cone** crea
 
 The nose cone should be printed vertically with the **shoulder placed on the build plate and the nose tip facing upward**.
 
-The current model was prepared using a **0.16 mm layer height**. Support should be generated underneath the internal bulkhead.
+The current model was prepared using a **0.16 mm layer height**.
 
-A support blocker can be used around the central recovery attachment to prevent the support structure from unnecessarily filling this region.
+Support should be generated underneath the internal bulkhead. A support blocker can be used around the central recovery attachment so that unnecessary support material does not fill the attachment region.
 
-Once the print is complete, inspect the nose cone for:
+Once printing is complete, inspect the nose cone for:
 
 - Layer separation
 - Cracks
 - Incomplete walls
 - Poorly formed support surfaces
-- Damage around the bulkhead
+- Damage around the internal bulkhead
 - Damage around the central boss
 - Poor fit between the shoulder and body tube
 
@@ -208,19 +208,19 @@ The nose cone contains a reinforced internal recovery structure consisting of:
 - Four reinforcing ribs
 - A central recovery hole
 
-An earlier design considered embedding an eye bolt while the nose cone was being printed.
+An earlier design considered embedding an eye bolt during the 3D-printing process.
 
-This was ultimately considered impractical because the bolt would have needed to be inserted from below while the shoulder remained attached to the build plate. A long metal fastener would also have created a potential interference point with the moving print head.
+This was abandoned because the bolt would have needed to be inserted from underneath while the shoulder remained fixed to the build plate. The metal fastener could also have interfered with the moving print head.
 
-The final design instead uses an **M6 RivNut** fitted after printing.
+The final design instead uses an **M6 RivNut** installed after printing.
 
 ### Installing the M6 RivNut
 
 The current CAD hole is approximately **Ø6.4 mm**.
 
-This is suitable as M6 bolt clearance, but the body of an M6 RivNut is larger. The printed hole must therefore be carefully enlarged after printing.
+This is suitable for M6 bolt clearance, but the outside diameter of an M6 RivNut is larger. The printed hole must therefore be carefully enlarged after printing.
 
-> **Important:** There is no universal drill diameter for every M6 RivNut. Measure the selected RivNut or follow the manufacturer's specified installation-hole diameter before drilling.
+> **Important:** The required hole diameter depends on the specific M6 RivNut being used. Measure the selected RivNut or follow the manufacturer's recommended installation-hole diameter before drilling.
 
 Enlarge the hole gradually and keep the drill centred through the boss and bulkhead.
 
@@ -228,11 +228,11 @@ Once the hole has been prepared:
 
 1. Insert the M6 RivNut.
 2. Install it using a suitable RivNut setting tool.
-3. Confirm that it is fully seated against the printed boss.
+3. Confirm that it is seated firmly against the printed boss.
 4. Thread the M6 eye fitting into the RivNut.
-5. Tighten it securely without crushing or cracking the PLA structure.
+5. Tighten it securely without applying enough force to crack or crush the PLA.
 
-The completed attachment should be pull-tested before flight.
+The finished attachment should be manually pull-tested before flight.
 
 ---
 
@@ -242,18 +242,18 @@ The current OpenRocket model specifies a shock-cord length of:
 
 **350 cm (3.5 m)**
 
-The current simulation uses round **2 mm elastic cord**.
+The current simulation specifies approximately **2 mm round elastic cord**.
 
-Attach one end of the shock cord securely to the **M6 eye fitting** in the nose cone.
+Attach one end of the shock cord securely to the **M6 eye fitting** installed in the nose cone.
 
-Make sure that:
+Ensure that:
 
 - The attachment is secure.
 - The cord is not damaged or frayed.
-- The cord does not contact sharp edges.
-- There is sufficient length for the nose cone and recovery system to separate safely.
+- The cord does not rub against sharp edges.
+- There is enough length for the nose cone and recovery system to separate safely.
 
-If a different shock-cord diameter or material is used in the finished rocket, update the OpenRocket model accordingly.
+If a different diameter or material is used in the finished rocket, update the OpenRocket model accordingly.
 
 ---
 
@@ -291,7 +291,7 @@ Before packing the parachute:
 - Inspect the canopy for damage.
 - Confirm that all attachment points are secure.
 - Make sure the parachute opens freely.
-- Confirm that it can fit within the body tube without excessive compression.
+- Confirm that the packed parachute fits within the body tube without excessive compression.
 
 ---
 
@@ -301,7 +301,7 @@ The current OpenRocket configuration uses an:
 
 **Estes E12-4**
 
-This is a 24 mm commercially manufactured model rocket motor with a four-second delay.
+This is a commercially manufactured 24 mm model rocket motor with a four-second delay.
 
 The motor should only be installed when the completed rocket is being prepared for launch.
 
@@ -336,8 +336,6 @@ The current Orion design primarily uses modules and through-hole headers and is 
 
 ### Component Placement
 
-Before soldering, place the components onto the PCB and confirm their positions.
-
 | Designator | Component |
 |---|---|
 | A1 | Arduino Nano v3 |
@@ -370,8 +368,6 @@ For each connection:
 7. Remove the iron.
 8. Allow the joint to cool without moving the component.
 
-A finished joint should form a clean connection between the pad and pin.
-
 Inspect the completed PCB for:
 
 - Missing joints
@@ -389,127 +385,83 @@ Do not connect a battery until the PCB has been inspected.
 
 The Orion Flight Computer should be tested using a computer and USB connection **before testing the battery and Pololu power system**.
 
-This provides a controlled method of verifying the PCB, firmware, sensors and MicroSD system individually.
+USB is useful for the first testing stage because it provides both power and serial communication with the Arduino Nano.
 
 ### Required Equipment
 
 - Completed Orion PCB
-- Arduino Nano installed
+- Arduino Nano
 - Computer
-- Appropriate USB data cable for the Nano
+- USB data cable
 - MicroSD card
 - Arduino IDE
 - Orion firmware
 
-> **Important:** Use a USB cable that supports data transfer. Some USB cables provide power only.
+> **Important:** Make sure the USB cable supports data transfer. Some cables only provide power.
 
 ### Step 1 - Inspect the PCB
 
-Before connecting USB power:
+Before connecting USB:
 
 - Inspect both sides of the PCB.
 - Check for solder bridges.
 - Check for loose solder fragments.
 - Confirm that all modules are installed in the correct orientation.
-- Check the power rails for obvious shorts with a multimeter if one is available.
+- Check the power rails for obvious shorts using a multimeter where possible.
 
 Do not connect the external battery at this stage.
 
-### Step 2 - Connect the Nano Through USB
+### Step 2 - Connect the Nano Using USB
 
-Connect the Arduino Nano directly to the computer using USB.
+Connect the Arduino Nano directly to the computer.
 
-During this stage, the USB connection provides the Nano with power while also establishing a serial connection with the computer.
+During this stage, USB provides power and serial communication.
 
-> **Do not connect the external battery supply at the same time unless the final power architecture has specifically been verified for simultaneous USB and external-power operation.**
+Avoid connecting the external battery simultaneously until the final power architecture has been properly verified.
 
-### Step 3 - Open Arduino IDE
+### Step 3 - Configure Arduino IDE
 
-Install and open the Arduino IDE.
+Open Arduino IDE.
 
 Select:
 
 **Tools → Board → Arduino Nano**
 
-Then select the appropriate processor option for the Nano being used.
-
-Select the serial port under:
+Select the appropriate processor and then select the Nano's serial port under:
 
 **Tools → Port**
 
-The port should normally appear when the Nano is connected.
+### Step 4 - Test the Nano and Serial Connection
 
-### Step 4 - Install the Required Libraries
-
-The final firmware will require the relevant libraries for:
-
-- MPU6050
-- BMP388
-- MicroSD
-- I²C
-- SPI
-
-The Wokwi prototype uses a BMP180 substitute, so the physical firmware must use the BMP388-compatible library instead of the BMP085/BMP180 simulation library.
-
-### Step 5 - Upload a Basic Firmware Test
-
-Do not immediately begin with the complete flight firmware.
-
-Testing the individual subsystems first makes faults considerably easier to identify.
-
-The recommended testing order is:
-
-```text
-Arduino Nano
-     ↓
-Serial communication
-     ↓
-I²C communication
-     ↓
-MPU6050
-     ↓
-BMP388
-     ↓
-MicroSD
-     ↓
-Combined Orion firmware
-```
-
-### Step 6 - Verify Serial Communication
-
-Upload a simple sketch that outputs a message through Serial.
+Upload a simple serial-output sketch.
 
 Open:
 
 **Tools → Serial Monitor**
 
-and use the baud rate specified by the firmware, currently:
+The current Orion firmware uses:
 
 **115200 baud**
 
-A basic successful test should show that the Nano can repeatedly communicate with the computer.
+Confirm that the Nano can send data reliably to the computer.
 
-### Step 7 - Test the I²C Bus
+### Step 5 - Test the I²C Bus
 
 The MPU6050 and BMP388 share the I²C bus.
 
-An I²C scanner can be uploaded to confirm that both devices are visible to the Nano.
+Run an I²C scanner and confirm that both sensors are detected.
 
-If both sensors are detected, this verifies:
+This provides a basic check of:
 
-- SDA connectivity
-- SCL connectivity
-- Power
+- SDA
+- SCL
+- Sensor power
 - Ground
-- Basic I²C communication
+- I²C communication
 
-If a sensor is missing, inspect its solder joints and wiring before continuing.
+### Step 6 - Test the MPU6050
 
-### Step 8 - Test the MPU6050
-
-Upload a basic MPU6050 test.
-
-Confirm that the Serial Monitor displays:
+Run a basic MPU6050 test and confirm that the following values appear:
 
 - X acceleration
 - Y acceleration
@@ -518,50 +470,34 @@ Confirm that the Serial Monitor displays:
 - Y angular velocity
 - Z angular velocity
 
-Slowly rotate and move the PCB.
+Move and rotate the PCB and confirm that the values change accordingly.
 
-The values should respond to the physical movement.
+### Step 7 - Test the BMP388
 
-At rest, one accelerometer axis should measure approximately gravitational acceleration depending on the orientation of the board.
-
-### Step 9 - Test the BMP388
-
-Upload a basic BMP388 test.
-
-Confirm that the Serial Monitor displays:
+Run a BMP388 test and confirm that the following values are available:
 
 - Atmospheric pressure
 - Temperature
 - Calculated altitude
 
-Raise and lower the PCB slightly.
+The measurements should remain reasonably stable when the PCB is stationary.
 
-Small altitude changes may be noisy, but pressure and altitude readings should remain generally stable rather than producing obviously impossible values.
+### Step 8 - Test the MicroSD Card
 
-### Step 10 - Test the MicroSD Card
+Insert a formatted MicroSD card.
 
-Insert a correctly formatted MicroSD card.
-
-Run a basic SD test that:
+Run an SD test that:
 
 1. Initialises the card.
-2. Creates a file.
-3. Writes several lines of data.
+2. Creates a test file.
+3. Writes several lines.
 4. Closes the file.
 
-Remove the card and check it using the computer.
+Remove the card and check the file on the computer.
 
-A successful test should produce a readable file such as:
+### Step 9 - Upload the Complete Orion Firmware
 
-```text
-TEST.CSV
-```
-
-### Step 11 - Upload the Orion Firmware
-
-Once the individual systems have passed testing, upload the complete Orion firmware.
-
-The startup sequence should confirm that each required component initialises successfully.
+Once each subsystem works independently, upload the complete Orion firmware.
 
 A successful startup should produce output similar to:
 
@@ -577,78 +513,60 @@ SD Card: OK
 Orion ready.
 ```
 
-### Step 12 - Perform a Data-Logging Test
+### Step 10 - Perform a Logging Test
 
-Allow Orion to run for several minutes while connected through USB.
+Allow Orion to run for several minutes.
 
 During the test:
 
-- Move and rotate the flight computer.
+- Move and rotate the PCB.
 - Raise and lower it.
-- Monitor the sensor output through the Serial Monitor.
-- Allow data to be written to the MicroSD card.
+- Monitor the Serial output.
+- Allow data to be recorded to the MicroSD card.
 
-After the test:
+Afterward, check the generated CSV and confirm that:
 
-1. Stop the system.
-2. Remove the MicroSD card.
-3. Open the generated CSV file on the computer.
-4. Confirm that timestamps are increasing.
-5. Confirm that sensor values have been recorded.
-6. Confirm that acceleration values changed when the PCB was moved.
-7. Confirm that altitude/pressure values were recorded.
+- Timestamps increase correctly.
+- Acceleration measurements were recorded.
+- Gyroscope measurements were recorded.
+- Pressure measurements were recorded.
+- Altitude measurements were recorded.
 
-### Step 13 - Test External Power Separately
+### Step 11 - Test the External Power System
 
-Only after USB testing has been completed should the external battery and Pololu regulator be tested.
+Once USB testing has succeeded, disconnect USB.
 
-Disconnect USB first.
+Connect the intended battery to the Pololu regulator.
 
-Connect the intended battery supply and verify the regulator output with a multimeter before relying on it to power the complete Orion system.
+Measure the regulator output with a multimeter before connecting the complete system.
 
-Confirm that the regulated output is approximately:
+The expected regulated output is approximately:
 
 **5 V**
 
-Then power Orion through the intended flight power system.
-
-The system should behave the same way as it did during USB testing.
-
-### Bench-Test Pass Criteria
-
-Orion should only progress to installation in Odyssey once:
-
-- The Nano powers reliably.
-- Serial communication works.
-- The MPU6050 is detected.
-- The BMP388 is detected.
-- Sensor measurements respond correctly.
-- The MicroSD card initialises.
-- CSV files can be created.
-- Data is successfully logged.
-- The regulator produces the expected output.
-- The complete system can operate without unexpected resets.
+Once verified, power Orion using the intended flight power system and confirm that its behaviour matches the USB test.
 
 ---
 
-## 14. Build the Avionics Bay Housing (*subject to funding*)
+## 14. Build the Avionics Bay Housing
 
 The Orion Flight Computer should not be installed as a bare PCB inside the rocket.
 
-A dedicated **3D-printed avionics sled or enclosure** should be used to hold the flight computer securely within the body tube.
+A dedicated **3D-printed avionics sled or enclosure** should be used.
 
 The housing should:
 
 - Fit within the internal diameter of the postal tube.
-- Hold the Orion PCB firmly using standoffs or spacers.
-- Prevent the PCB from moving during launch and recovery.
+- Hold the Orion PCB firmly.
+- Use standoffs or spacers to support the PCB.
+- Prevent the flight computer from moving during launch and recovery.
 - Keep the electronics separated from the parachute and shock cord.
 - Provide clearance for the MicroSD card.
 - Provide clearance for the Arduino Nano USB connector.
-- Allow wiring to pass through without being crushed or sharply bent.
-- Be removable so the PCB can still be tested, repaired, or reprogrammed.
+- Allow wiring to pass through without being crushed.
+- Remain removable for testing and maintenance.
 
-A simple design may use two circular end plates connected by longitudinal rails, with the PCB mounted between them.
+A simple layout may use two circular end plates connected by longitudinal rails.
 
 ```text
 BODY TUBE
@@ -666,11 +584,31 @@ BODY TUBE
 ○ = printed end plates
 = = structural rails
 ```
+
+A PVC tube could also be used, but this would introduce additional mass and wall thickness while reducing the available internal volume.
+
+For Odyssey, a **custom 3D-printed avionics sled is the preferred solution**.
+
 ---
 
-## 15. Final Assembly
+## 15. Install Orion in the Rocket
 
-Once the major components have been completed, assemble the rocket and inspect the entire structure.
+Once the avionics bay has been assembled and tested, install it securely within the rocket body.
+
+Ensure that:
+
+- The housing cannot move freely.
+- The PCB remains fixed within the housing.
+- The MicroSD card remains accessible where practical.
+- Wiring cannot contact sharp edges.
+- The avionics bay does not interfere with the parachute or shock cord.
+- The assembly can still be removed for maintenance.
+
+---
+
+## 16. Final Assembly
+
+Once the major components have been completed, inspect the entire rocket.
 
 Check:
 
@@ -683,15 +621,15 @@ Check:
 - RivNut recovery attachment
 - Shock cord
 - Parachute
-- Orion retention, if installed
+- Orion avionics bay, if installed
 
-Nothing inside the rocket should be able to move freely during flight.
+Nothing inside the rocket should move freely during flight.
 
 ---
 
-## 16. Update the OpenRocket Model
+## 17. Update the OpenRocket Model
 
-The finished rocket will almost certainly differ slightly from the original OpenRocket design.
+The final physical rocket will differ slightly from the original OpenRocket model.
 
 Before launch, weigh the completed rocket and update the simulation where necessary.
 
@@ -705,11 +643,23 @@ Important values include:
 - Orion Flight Computer mass
 - Motor selection
 
-Re-run the simulation using the final physical configuration rather than relying only on earlier design estimates.
+The current OpenRocket configuration shown during development produces approximately:
+
+| Parameter | Current Simulation |
+|---|---:|
+| Motor | Estes E12-4 |
+| Apogee | 121 m |
+| Maximum velocity | 38.7 m/s |
+| Maximum acceleration | 67.4 m/s² |
+| Stability | 1.71 cal |
+
+These values should be treated as **simulation results rather than guaranteed flight performance**.
+
+Re-run the simulation using the final measured configuration before flight.
 
 ---
 
-## 17. Ground Testing
+## 18. Ground Testing
 
 Before flight, complete basic ground testing.
 
@@ -723,19 +673,20 @@ This should include:
 - Orion power-on testing
 - Sensor initialisation
 - MicroSD logging verification
+- Avionics-bay retention testing
 
 The Wokwi simulation validates the general firmware architecture but does not replace testing of the physical Orion hardware.
 
 ---
 
-## 18. Launch Preparation
+## 19. Launch Preparation
 
 Once construction, simulation and ground testing have been completed, the rocket can progress to launch preparation.
 
 Before launching:
 
 - Check weather conditions.
-- Check relevant fire restrictions.
+- Check applicable fire restrictions.
 - Confirm that the launch location is suitable.
 - Check applicable model rocket and aviation requirements.
 - Inspect the rocket immediately before flight.
@@ -751,6 +702,6 @@ Additional project information is available in:
 
 - [Main README](README.md)
 - [Bill of Materials](BOM/)
-- [Firmware](FIRMWARE/)
+- [Firmware](Firmware/)
 - [PCB](PCB/)
 - [CAD](CAD/)
