@@ -12,10 +12,12 @@ The possibilities are endless! This model can be constructed as a relatively low
 
 
 ## Table of Contents:
-- [Main Features](##Main_Features)
+- [Features](##Features)
+- [Components](##Components)
+- [Quickstart](#Quickstart)
 
 
-## Main Features
+## Features
 
 - The Orion Flight Computer, a custom PCB that will log acceleration (IMU) and altitude (barometer) data to an onboard SD card.
 - 3D-printed PLA von Karman ogive nosecone, custom-fit to a 660x60mm AusPost postal tube body (2mm wall), friction fitted via a 50x55mm shoulder insert.
