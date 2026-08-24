@@ -1,6 +1,8 @@
 # Odyssey Rocket Bill of Materials
 
-The estimated total cost of the Odyssey Rocket, including the Orion Flight Computer, PCB fabrication, rocket motor, and primary rocket hardware, is approximately **US$214**.
+The estimated total cost of the Odyssey Rocket, including the Orion Flight Computer, PCB fabrication, propulsion system, recovery system, and primary rocket hardware, is approximately:
+
+# **US$240**
 
 | Item | Cost |
 |---|---:|
@@ -11,14 +13,10 @@ The estimated total cost of the Odyssey Rocket, including the Orion Flight Compu
 | Australia Post 660 × 60 mm postal tube | ~US$3.60 |
 | Taskmaster M6 stainless steel eye bolt | ~US$2.30 |
 | 3 mm plywood sheet | ~US$13.60 |
-| **Total Project Cost** | **~US$213.73** |
+| SkyAngle Classic 20 in parachute | US$20.00 |
+| 3.5 m shock cord | ~US$6.26 |
+| **Estimated Total Project Cost** | **~US$239.99** |
 
-## Estimated Total
+Prices may vary depending on supplier availability, shipping costs, and exchange rates.
 
-# **~US$214**
-
-This estimate represents the approximate initial cost of constructing the Odyssey Rocket and Orion Flight Computer using the currently selected components.
-
-
-
-This also does NOT include other variable costs that must be taken into account in its construction so the true price is likely higher than this by a fair margin. Prices will vary based on supplier availability, shipping costs, and exchange rates.
+> The parachute price does not currently include any additional international shipping charges.
