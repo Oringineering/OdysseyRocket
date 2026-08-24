@@ -25,7 +25,7 @@ Before beginning construction, gather the required components listed in the proj
 - SkyAngle Classic 20 parachute
 - Estes E12-4 model rocket motor
 
-Further information can be found in the [Rocket Hardware BOM](BOM/Rocket_Hardware_BOM.md).
+Further information can be found in the [Rocket Hardware BOM](BOM/Rocket_Hardware.md).
 
 ### Orion Flight Computer
 
@@ -38,7 +38,7 @@ If the avionics system is being used, the primary components are:
 - Pololu S13V10F5 voltage regulator
 - Orion Flight Computer PCB
 
-Further information is available in the [Firmware](Firmware/) and [PCB](PCB/) folders.
+Further information is available in the [Firmware](FIRMWARE/) and [PCB](PCB/) folders.
 
 ---
 
@@ -751,6 +751,6 @@ Additional project information is available in:
 
 - [Main README](README.md)
 - [Bill of Materials](BOM/)
-- [Firmware](Firmware/)
+- [Firmware](FIRMWARE/)
 - [PCB](PCB/)
 - [CAD](CAD/)
