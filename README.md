@@ -128,10 +128,11 @@ Orion ready.
 See the [PCB](PCB/Documentation/PCB_OFC_2026-08-23.pdf) and the [Documentation](PCB/Documentation) folder for relevant information.
 
 ## Bill of Materials (BOM)
-https://github.com/Oringineering/OdysseyRocket/blob/main/BOM.md
++__
 
 ## Credits
 - Niles55 (Reddit) for his tool on modelling Nose Cones. This served as inspiration for me to pursue the Von Karman Ogive after discerning its properties.
 - HTM Workshop (YouTube) for his "KiCad Tutorial | Beginning to End" series that gave me a comprehensive understanding on how to make schematics and PCBs. 
 - Amazing Automation (YouTube) for his guide on how to place a logo/decal on a PCB.
+- LiterallySaltwater (Discord) for providing assistance with coding
 - My Dad for his endless knowledge and support :)
