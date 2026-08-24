@@ -8,5 +8,5 @@
 | **Overall total so far** | **$209.23 USD** |
 
 
-**DISCLAIMER**
-It is unfortunate that a majority of these parts are accessible from the US only and that even despite the tariffs and shipping, the US providers are somehow cheaper than the Australian providers upon closer inspection. As such, the shipping and tariffs appear expensive on paper but compared to the Australian Dollar, they are cheaper than sourcing them locally. 
+**DISCLAIMER**:
+It is unfortunate that a majority of these parts are accessible from the US only and that even despite the tariffs and shipping, the US providers are somehow cheaper than the Australian providers upon closer inspection. As such, the shipping and tariffs appear extortionate on paper but compared to the Australian Dollar, they are cheaper than sourcing them locally. 
