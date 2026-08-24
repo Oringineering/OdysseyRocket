@@ -1,0 +1,9 @@
+# Wokwi Library List
+# See https://docs.wokwi.com/guides/libraries
+
+Adafruit MPU6050
+Adafruit Unified Sensor
+Adafruit BusIO
+Adafruit BMP085 Library
+SdFat
+SD
