@@ -45,12 +45,8 @@ Rocket Body
 - Plywood Fins
 
 ## PCB Design
+See [PCB_OFC_2026-08-23.pdf](PCB_OFC_2026-08-23.pdf) and the [Documentation](Documentation) folder for relevant information.
 
-Below is a schematic for the avionics computer. PCB configuration will commence soon.
-<img width="1255" height="861" alt="image" src="https://github.com/user-attachments/assets/a29bdd92-52ac-4ebd-977f-1abfb3b48f3d" />
-
-I also began doing the KiCad footprints for the required components I will be incorporating into the PCB.
-<img width="1308" height="457" alt="image" src="https://github.com/user-attachments/assets/198b8696-6429-4f98-998c-28d389650036" />
 
 
 
