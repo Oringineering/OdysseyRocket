@@ -46,7 +46,7 @@ Rocket Body
 
 
 ## PCB Design
-See [PCB_OFC_2026-08-23.pdf](PCB/Documentation/PCB_OFC_2026-08-23.pdf) and the [Documentation](PCB/Documentation) folder for relevant information.
+See the [PCB](PCB/Documentation/PCB_OFC_2026-08-23.pdf) and the [Documentation](PCB/Documentation) folder for relevant information.
 
 ## Bill of Materials (BOM)
 https://github.com/Oringineering/OdysseyRocket/blob/main/BOM.md
