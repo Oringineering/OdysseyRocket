@@ -10,10 +10,9 @@ The current version has been tested virtually using Wokwi while the physical avi
 
 ## Current Prototype
 
-The current firmware prototype uses:
+The current (Wowki) firmware prototype uses:
 
 - **Arduino Nano v3**
-  - ATmega328P microcontroller
   - Runs the Orion firmware and manages sensor communication and data logging
 
 - **MPU6050**
