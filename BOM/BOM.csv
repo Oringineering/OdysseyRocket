@@ -1,0 +1,12 @@
+﻿Category,Item,Quantity,Unit Cost (USD),Extended Cost (USD),Supplier / Manufacturer,Notes
+Orion Flight Computer,Orion electronic components,1,43.78,43.78,Various,"Arduino Nano, MPU6050, BMP388, MicroSD breakout, Pololu regulator and associated electronics"
+Orion Flight Computer,Orion PCB fabrication,1,12.00,12.00,JLCPCB,Bare PCB fabrication
+Shipping / Tax,Electronics / PCB shipping and VAT,1,87.54,87.54,Various,Combined electronics and PCB shipping / VAT estimate
+Propulsion,Estes E12-4 motor and postage,1,50.91,50.91,Estes / Berg's Hobbies,Selected propulsion motor including postage
+Airframe,Australia Post 660 × 60 mm postal tube,1,3.60,3.60,Australia Post,Main rocket body; approximate USD conversion
+Recovery,M6 RivNut + M6 eye fitting,1,,,Various,Final recovery attachment concept; cost to be updated once exact hardware is selected
+Airframe,3 mm birch plywood sheet,1,13.60,13.60,Bunnings,Used for fins and centering ring; approximate USD conversion
+Recovery,SkyAngle Classic 20 parachute,1,20.00,20.00,SkyAngle,20 in / 50.8 cm parachute; international shipping not included
+Recovery,Shock cord,3.5,1.79,6.26,Clark Rubber,3.5 m total; approximate USD conversion
+
+NET KNOWN TOTAL,,,,237.69,,Excludes M6 RivNut + eye fitting cost and any unlisted international parachute shipping
