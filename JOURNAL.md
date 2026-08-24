@@ -8,7 +8,7 @@
 | **Project** | Odyssey Rocket |
 | **Description** | A rocket prototype... but I knew nothing about rockets or the software that can be utilised to make one. |
 | **Creation Date** | 01/08/2026 |
-| **Total Time Spent** | **~23 hours** |
+| **Total Time Spent** | **~37 hours** |
 
 ---
 
