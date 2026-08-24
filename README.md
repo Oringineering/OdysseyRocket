@@ -139,17 +139,11 @@ Orion ready.
 Further information can be found in the [Firmware documentation](FIRMWARE/README.md).
 
 ---
-### 🚀 Launch the Odyssey Flight Simulation
+### Odyssey Rocket Flight Simulation
 
-The Odyssey Flight Simulation is an interactive browser-based replay generated from the current OpenRocket flight data.
+The Odyssey Rocket Flight Simulation is an interactive browser-based replay generated from the current OpenRocket flight data.
 
-To run the simulation online:
-
-1. Open the [`SIMULATION/index.html`](SIMULATION/index.html) file.
-2. Copy the full HTML code.
-3. Go to [CodeShack HTML Viewer](https://codeshack.io/html-viewer/).
-4. Paste the HTML into the editor.
-5. Run the page to view the Odyssey Flight Simulation.
+[**Launch the Odyssey Rocket Flight Simulation**](https://oringineering.github.io/OdysseyRocket/SIMULATION/)
 
 The simulation displays:
 
@@ -173,35 +167,22 @@ It also includes:
 - Live flight values
 - Flight-event tracking
 
-> **Note:** The Odyssey Flight Simulation is a visual replay of OpenRocket-generated simulation data. It does not represent measured data from a physical launch.
+No additional software is required. The simulation runs directly in a modern web browser.
+
+> **Note:** The Odyssey Rocket Flight Simulation is a visual replay of OpenRocket-generated simulation data. It does not represent measured data from a physical launch.
 
 ---
 
 #### Running the Flight Simulation Locally
 
-The simulation can also be run locally without any additional software.
+The simulation can also be run locally.
 
 1. Download or clone the Odyssey Rocket repository.
 2. Open the `SIMULATION` folder.
-3. Locate:
-
-```text
-index.html
-```
-
-4. Double-click `index.html`.
+3. Locate `index.html`.
+4. Double-click the file.
 
 The simulation should automatically open in your default web browser.
-
-Alternatively:
-
-1. Right-click `index.html`.
-2. Select **Open with**.
-3. Choose a modern browser such as:
-   - Google Chrome
-   - Microsoft Edge
-   - Firefox
-   - Safari
 
 Because the simulation is completely self-contained, it does not require an internet connection once the repository has been downloaded.
 
