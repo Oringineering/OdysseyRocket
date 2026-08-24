@@ -1,10 +1,10 @@
 # Orion Flight Computer Firmware
 
-This folder contains the firmware developed for the **Orion Flight Computer**, the avionics system used in the Odyssey Rocket project.
+This folder contains the firmware developed for the **Orion Flight Computer**, the avionics system (+PCB) used in the Odyssey Rocket project.
 
-The firmware is responsible for collecting flight data from the onboard sensors, calculating useful flight parameters such as altitude, and storing the recorded data on a MicroSD card for later analysis.
+The firmware is responsible for collecting flight data from the onboard sensors such as altitude, and storing the recorded data on a MicroSD card for later analysis.
 
-The current version has been tested virtually using Wokwi while the physical avionics components are awaiting procurement.
+The current version has been tested virtually using Wokwi while the physical avionics components are awaiting procurement (subject to funding).
 
 ---
 
