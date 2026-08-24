@@ -8,18 +8,15 @@ The possibilities are endless! This model can be constructed as a relatively low
 
 <img width="1810" height="407" alt="image" src="https://github.com/user-attachments/assets/7189b1b5-2779-4cb1-8c89-bebe811244ef" />
 
-
-## Features
+## Main Features
 
 - The Orion Flight Computer, a custom PCB that will log acceleration (IMU) and altitude (barometer) data to an onboard SD card.
 - 3D-printed PLA von Karman ogive nosecone, custom-fit to a 660x60mm AusPost postal tube body (2mm wall), friction fitted via a 50x55mm shoulder insert.
 - Can safely be launched in a park without breaking Western Australian laws: it must not weigh more than 500g, carry no more than 25g of propellant, be within 5km of an aerodrome, nor exceed an apogee of 400 feet (121.92m).
 
 
-
-
 ## Table of Contents:
-- [Features](#Features)
+- [Orion Flight Computer](##Orion Flight Computer Simulation)
 
 
 
