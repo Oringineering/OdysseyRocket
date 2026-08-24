@@ -1,3 +1,6 @@
+# Funding Breakdown
+
+
 | Cost category | USD |
 | -- | --: |
 | Electronic components | **$43.78** |
