@@ -6,3 +6,4 @@
 |   4 |   1 | BMP388 Barometric Pressure Sensor Breakout | **U3**     | `ADAFRUIT_BMP388`                  | BMP388           | **3966**            | Adafruit     | 3966          | Adafruit |
 |   5 |   1 | MPU6050 Accelerometer/Gyroscope Breakout   | **U4**     | `ADAFRUIT_MPU6050`                 | MPU6050          | **3886**            | Adafruit     | 3886          | Adafruit |
 |   6 |   1 | 2-pin 2.54 mm Power Input Header           | **J1**     | `PinHeader_1x02_P2.54mm_Vertical`* | 1×02 2.54 mm     | **B-2100S02P-A110** | Ckmtw        | **C124375**   | LCSC     |
+/b
