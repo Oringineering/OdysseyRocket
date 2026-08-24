@@ -75,7 +75,7 @@ The Orion firmware follows the general data flow shown below:
 ```text
 MPU6050 ─────────────┐
                      │
-Barometer ────────────┼──> Arduino Nano
+Barometer ───────────┼──> Arduino Nano
                      │        │
                      │        ├──> Flight calculations
                      │        │
