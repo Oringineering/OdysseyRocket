@@ -91,21 +91,32 @@ ODYSSEY ROCKET
 
 ## Quickstart
 
+Odyssey currently includes two different simulations:
+
+- the **Orion Flight Computer simulation**, which runs through Wokwi
+- the **Odyssey Flight Simulation**, which runs as an interactive HTML page generated from OpenRocket flight data
+
+---
+
 ### Orion Flight Computer Simulation
 
-The Orion Flight Computer can currently be tested through a Wokwi simulation.
+The Orion Flight Computer can currently be tested virtually using Wokwi.
 
-The simulation is intended to validate the firmware architecture, sensor communication, altitude calculations, and MicroSD data logging before the physical avionics hardware is assembled.
+This simulation is intended to validate the firmware architecture, sensor communication, altitude calculations, and MicroSD data logging before the physical avionics hardware is assembled.
 
-#### Running the Simulation
+#### Running the Orion Simulation
 
 1. Go to [Wokwi](https://wokwi.com/).
-2. Open the Orion Flight Computer simulation (this can be found at [Sketch.ino](FIRMWARE/sketch.ino))
-3. Start the simulation using the green play button.
-4. Open the Serial Monitor.
-5. Orion will initialise the simulated sensors and MicroSD card.
-6. Sensor measurements and calculated flight data will begin updating.
-7. Flight data is recorded to a CSV file on the simulated MicroSD card.
+2. Open or create an Arduino Nano project.
+3. Use the files contained in the [`FIRMWARE`](FIRMWARE/) folder.
+4. Load the supplied:
+   - `sketch.ino`
+   - `diagram.json`
+   - `libraries.txt`
+5. Start the simulation using the green play button.
+6. Open the Serial Monitor.
+7. Orion will initialise the simulated sensors and MicroSD card.
+8. Sensor measurements and calculated flight data will begin updating.
 
 A successful startup should produce output similar to:
 
@@ -122,6 +133,107 @@ SD Card: OK
 Orion ready.
 ```
 
+> **Note:** The Wokwi simulation uses a BMP180 as a substitute for the BMP388 intended for the final Orion Flight Computer.
+
+Further information can be found in the [Firmware documentation](FIRMWARE/README.md).
+
+---
+
+### Odyssey Flight Simulation
+
+The repository also includes an interactive browser-based simulation of the Odyssey Rocket flight.
+
+The simulation is based on data exported from the current OpenRocket model and displays:
+
+- Altitude
+- Total velocity
+- Vertical velocity
+- Acceleration
+- Thrust
+- Lateral distance
+- Liftoff
+- Motor burnout
+- Apogee
+- Recovery deployment
+- Ground impact
+
+The simulation also includes:
+
+- Play and pause controls
+- Restart control
+- Timeline scrubbing
+- Live flight values
+- Flight-event tracking
+
+### 🚀 Launch the Odyssey Flight Simulation
+
+[**Launch the Odyssey Flight Simulation**](https://oringineering.github.io/OdysseyRocket/Simulation/)
+
+> **Note:** The Odyssey Flight Simulation is a visual replay of OpenRocket-generated simulation data. It does not represent measured data from a physical launch.
+
+---
+
+#### Running the Flight Simulation Locally
+
+The HTML simulation can also be run locally without any special software.
+
+1. Download or clone the Odyssey Rocket repository.
+2. Open the `Simulation` folder.
+3. Locate:
+
+```text
+index.html
+```
+
+4. Double-click `index.html`.
+
+The simulation should automatically open in your default web browser.
+
+Alternatively:
+
+1. Right-click `index.html`.
+2. Select **Open with**.
+3. Choose a modern browser such as:
+   - Google Chrome
+   - Microsoft Edge
+   - Firefox
+   - Safari
+
+Because the simulation is completely self-contained, it does not require an internet connection once the repository has been downloaded.
+
+---
+
+#### Hosting the Flight Simulation with GitHub Pages
+
+The simulation can be hosted publicly through GitHub Pages.
+
+The file should be stored as:
+
+```text
+Simulation/
+└── index.html
+```
+
+Then:
+
+1. Open the Odyssey Rocket repository on GitHub.
+2. Go to **Settings → Pages**.
+3. Under **Build and deployment**, select:
+
+```text
+Source: Deploy from a branch
+Branch: main
+Folder: / (root)
+```
+
+4. Save the configuration.
+5. Wait for GitHub Pages to deploy the repository.
+
+The simulation will then be available at:
+
+[https://oringineering.github.io/OdysseyRocket/Simulation/](https://oringineering.github.io/OdysseyRocket/Simulation/)
+
+This public link can also be added directly to Linktree --> https://linktr.ee/oringineering
 
 ## PCB Design
 See the [PCB](PCB/Documentation/PCB_OFC_2026-08-23.pdf) and the [Documentation](PCB/Documentation) folder for relevant information.
