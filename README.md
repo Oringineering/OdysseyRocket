@@ -44,18 +44,9 @@ Rocket Body
 - AusPost 660x60mm Postal Tube
 - Plywood Fins
 
+
 ## PCB Design
 See [PCB_OFC_2026-08-23.pdf](PCB/Documentation/PCB_OFC_2026-08-23.pdf) and the [Documentation](PCB/Documentation) folder for relevant information.
-
-
-
-
-
-
-## How it Works
-
-## Motivation for Construction
-I want to build projects that test my understanding of the world around me. There's only a finite time on Earth, so why not try it all? As such, I was motivated by a strong willingness to learn industry standard software — SolidWorks, OpenRocket, and KiCad — alongside physical processes — soldering, product assembly, and calculations to determine aerodynamics. As a First-Year Engineering Student, I hope to apply these newly learned skills in my future endeavours!
 
 ## Bill of Materials (BOM)
 https://github.com/Oringineering/OdysseyRocket/blob/main/BOM.md
@@ -63,4 +54,5 @@ https://github.com/Oringineering/OdysseyRocket/blob/main/BOM.md
 ## Credits
 - Niles55 (Reddit) for his tool on modelling Nose Cones. This served as inspiration for me to pursue the Von Karman Ogive after discerning its properties.
 - HTM Workshop (YouTube) for his "KiCad Tutorial | Beginning to End" series that gave me a comprehensive understanding on how to make schematics and PCBs. 
-- Amazing Automation (YouTube) for his guide on how to place a logo/decal on a PCB. 
+- Amazing Automation (YouTube) for his guide on how to place a logo/decal on a PCB.
+- My Dad for his endless knowledge and support :)
