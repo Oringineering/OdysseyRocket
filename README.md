@@ -45,7 +45,7 @@ Rocket Body
 - Plywood Fins
 
 ## PCB Design
-See [PCB_OFC_2026-08-23.pdf](PCB/Documentation/PCB_OFC_2026-08-23.pdf) and the [Documentation](Documentation) folder for relevant information.
+See [PCB_OFC_2026-08-23.pdf](PCB/Documentation/PCB_OFC_2026-08-23.pdf) and the [Documentation](PCB/Documentation) folder for relevant information.
 
 
 
