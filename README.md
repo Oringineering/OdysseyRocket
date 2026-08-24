@@ -17,7 +17,6 @@ The possibilities are endless! This model can be constructed as a relatively low
 - [Components](#components)
 - [Quickstart](#quickstart)
 - [PCB Design](#pcb-design)
-- [Firmware](#firmware)
 - [Bill of Materials](#bill-of-materials)
 - [Project Status](#project-status)
 - [Credits](#credits)
