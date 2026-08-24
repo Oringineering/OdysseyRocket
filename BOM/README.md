@@ -18,5 +18,3 @@ The estimated total cost of the Odyssey Rocket, including the Orion Flight Compu
 | **Estimated Total Project Cost** | **~US$239.99** |
 
 Prices may vary depending on supplier availability, shipping costs, and exchange rates.
-
-> The parachute price does not currently include any additional international shipping charges.
