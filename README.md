@@ -138,12 +138,19 @@ Orion ready.
 Further information can be found in the [Firmware documentation](FIRMWARE/README.md).
 
 ---
+### 🚀 Launch the Odyssey Flight Simulation
 
-### Odyssey Flight Simulation
+The Odyssey Flight Simulation is an interactive browser-based replay generated from the current OpenRocket flight data.
 
-The repository also includes an interactive browser-based simulation of the Odyssey Rocket flight.
+To run the simulation online:
 
-The simulation is based on data exported from the current OpenRocket model and displays:
+1. Open the [`SIMULATION/index.html`](SIMULATION/index.html) file.
+2. Copy the full HTML code.
+3. Go to [CodeShack HTML Viewer](https://codeshack.io/html-viewer/).
+4. Paste the HTML into the editor.
+5. Run the page to view the Odyssey Flight Simulation.
+
+The simulation displays:
 
 - Altitude
 - Total velocity
@@ -157,7 +164,7 @@ The simulation is based on data exported from the current OpenRocket model and d
 - Recovery deployment
 - Ground impact
 
-The simulation also includes:
+It also includes:
 
 - Play and pause controls
 - Restart control
@@ -165,20 +172,16 @@ The simulation also includes:
 - Live flight values
 - Flight-event tracking
 
-### 🚀 Launch the Odyssey Flight Simulation
-
-[**Launch the Odyssey Flight Simulation**](https://oringineering.github.io/OdysseyRocket/Simulation/)
-
 > **Note:** The Odyssey Flight Simulation is a visual replay of OpenRocket-generated simulation data. It does not represent measured data from a physical launch.
 
 ---
 
 #### Running the Flight Simulation Locally
 
-The HTML simulation can also be run locally without any special software.
+The simulation can also be run locally without any additional software.
 
 1. Download or clone the Odyssey Rocket repository.
-2. Open the `Simulation` folder.
+2. Open the `SIMULATION` folder.
 3. Locate:
 
 ```text
@@ -200,40 +203,6 @@ Alternatively:
    - Safari
 
 Because the simulation is completely self-contained, it does not require an internet connection once the repository has been downloaded.
-
----
-
-#### Hosting the Flight Simulation with GitHub Pages
-
-The simulation can be hosted publicly through GitHub Pages.
-
-The file should be stored as:
-
-```text
-Simulation/
-└── index.html
-```
-
-Then:
-
-1. Open the Odyssey Rocket repository on GitHub.
-2. Go to **Settings → Pages**.
-3. Under **Build and deployment**, select:
-
-```text
-Source: Deploy from a branch
-Branch: main
-Folder: / (root)
-```
-
-4. Save the configuration.
-5. Wait for GitHub Pages to deploy the repository.
-
-The simulation will then be available at:
-
-[https://oringineering.github.io/OdysseyRocket/Simulation/](https://oringineering.github.io/OdysseyRocket/Simulation/)
-
-This public link can also be added directly to Linktree --> https://linktr.ee/oringineering
 
 ## PCB Design
 See the [PCB](PCB/Documentation/PCB_OFC_2026-08-23.pdf) and the [Documentation](PCB/Documentation) folder for relevant information.
