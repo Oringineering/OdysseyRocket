@@ -319,36 +319,183 @@ The rest of the session was spent organising the GitHub repository and preparing
 
 ---
 
-# Day 8 — Rocket Nose Cone Amendments and GitHub Repo Editing!
+# Day 8 — Nose Cone Amendments and GitHub Overhaul
 ### ⏱️ 5 hours 55 minutes
 
-I spent an ungodly amount of time scanning through my GitHub Repo, overhauling it and optimising it in preparation for shipping. There’s still a fair amount of work to do, but I got through a fair chunk of it.
+Today was split between two things: continuing the nose cone design and giving the GitHub repository a fairly serious overhaul.
 
-I also made an updated model for the Rocket Nose Cone. It’s far from complete as I need to discern the appropriateness of measurements when incorporating the shock cord module into the shoulder linked to the nose cone. I aim to finish a fair majority of this project tomorrow so stay tuned!
+I spent an ungodly amount of time going through the repository, cleaning up folders, reorganising documentation, updating the BOMs, and generally trying to make the project understandable to someone other than myself.
 
+The second half of the day was spent revisiting the nose cone.
 
-<img width="549" height="607" alt="image" src="https://github.com/user-attachments/assets/22af455d-b396-4981-8c14-b56949e1aee3" />
+The original nose cone itself was already functional, but the recovery system still needed a proper structural attachment point. I therefore began redesigning the shoulder to include an internal recovery structure.
+
+The updated design incorporated:
+
+- a hollow **2.5 mm shoulder wall**
+- a **7.5 mm internal bulkhead**
+- a reinforced central boss
+- a **Ø6.4 mm recovery hole**
+- additional internal space for the recovery hardware
+
+The main difficulty was determining how the shock cord could realistically be attached without relying on a weak section of printed PLA.
+
+I initially considered embedding an eye bolt into the print itself, but this quickly introduced a number of manufacturing problems that would need to be resolved later.
+
+<p align="center">
+  <img width="549" height="607" alt="image" src="https://github.com/user-attachments/assets/22af455d-b396-4981-8c14-b56949e1aee3" />
+</p>
+
+<p align="center">
+  <em>Development of the reinforced shoulder and internal recovery structure.</em>
+</p>
+
+By the end of the day, the nose cone was significantly closer to being a genuinely usable component rather than simply a hollow aerodynamic shell.
 
 ---
 
-# Day 9 — Rocket Nose Finalisation and more GitHub Repo Editing
+# Day 9 — Nose Cone Finalisation, Firmware and Simulation
 ### ⏱️ 6 hours 30 minutes
 
-Today I spent hours of moiling away at SolidWorks:
+Today I spent hours moiling away at SolidWorks.
 
-Learning how to add Fillets
-Creating a boss structure
-Building the nose cone module and the shock cord section that attaches to the eyebolt.
+The focus was finally completing the structural side of the nose cone and recovery system.
+
+I learnt how to:
+
+- create and apply **fillets**
+- build a central **boss structure**
+- create reinforcing **ribs**
+- use circular patterns around a central axis
+- work with multiple solid bodies
+- merge the shoulder and nose cone into one printable body
+- prepare the model for slicing and support generation
+
+The final recovery structure used:
+
+- a **7.5 mm bulkhead**
+- a **Ø20 mm central boss**
+- four reinforcing ribs
+- a **Ø6.4 mm central recovery hole**
+- filleted rib roots to reduce sharp stress concentrations
+
+One thing that caused a fair amount of pain was the recovery fastener.
+
+My original plan was to insert a long eye bolt while the nose cone was printing. After looking at how close and how quickly the printer head travels above the active layer, I realised that having a large metal fastener protruding into the printing area was not a particularly intelligent idea.
+
+I therefore moved toward using an **M6 RivNut** installed after printing. The existing Ø6.4 mm hole can be carefully enlarged to match the installation diameter of the selected RivNut, allowing an M6 eye fitting to be installed after the print is complete.
+
+<p align="center">
+  <img width="675" height="900" alt="image" src="https://github.com/user-attachments/assets/7a67f1a3-7f95-4475-95ca-aed4933a2f65" />
+</p>
+
+<p align="center">
+  <em>Nose Cone V2.</em>
+</p>
+
+
+
+### Firmware
+
+I also started developing the firmware for the **Orion Flight Computer**.
+
+Because the physical components have not yet been procured, I created a virtual prototype using **Wokwi**.
+
+The simulation used:
+
+- Arduino Nano
+- MPU6050
+- BMP180
+- MicroSD card
+
+The BMP180 is used only as a stand-in for the final BMP388 because Wokwi does not currently provide the BMP388 as a standard simulated component.
+
+After a fair amount of troubleshooting with the SD libraries and SPI wiring, I successfully got the simulation to:
+
+- initialise the MPU6050
+- initialise the BMP180
+- calculate relative altitude
+- initialise the MicroSD card
+- create a CSV file
+- record simulated flight data
+- output live measurements through the Serial Monitor
+
+Being able to manipulate the simulated atmospheric pressure and watch Orion calculate a corresponding altitude change was probably one of the most satisfying software milestones of the project.
+
+
 
 ---
 
 # Day 10 — SHIPMENT
 ### ⏱️ 1 hour 33 minutes
 
-GitHub is complete.
-Simulations are complete.
-Prototype model is done
+The project is finally in a state where I am comfortable shipping it.
 
-<img width="675" height="900" alt="image" src="https://github.com/user-attachments/assets/46421205-73e9-46b5-b13f-b2a4308033a8" />
+Today was primarily spent tying everything together.
+
+The GitHub repository was finalised with:
+
+- project documentation
+- CAD files
+- PCB files
+- fabrication documentation
+- firmware
+- Wokwi simulation files
+- Bills of Materials
+- construction guide
+- project journal
+
+I also finalised the most recent OpenRocket configuration.
+
+The current simulation produces approximately:
+
+| Parameter | Result |
+|---|---:|
+| Motor | Estes E12-4 |
+| Apogee | 121.28 m |
+| Maximum velocity | 38.74 m/s |
+| Maximum acceleration | 67.35 m/s² |
+| Maximum lateral distance | 28.84 m |
+| Apogee time | 6.06 s |
+| Recovery deployment | 6.44 s |
+| Total flight time | 29.66 s |
+
+I exported the OpenRocket flight data and used it to create an interactive HTML flight simulation so that the expected Odyssey flight can be viewed directly in a browser.
+
+At this point:
+
+- ✅ Rocket design complete
+- ✅ Nose cone prototype complete
+- ✅ Orion PCB design complete
+- ✅ PCB fabrication files complete
+- ✅ Orion firmware prototype complete
+- ✅ Wokwi simulation functional
+- ✅ OpenRocket simulation complete
+- ✅ Interactive flight simulation complete
+- ✅ BOM completed
+- ✅ Construction guide completed
+- ✅ GitHub repository completed
+
+The remaining stages depend on funding and physical component procurement.
+
+Once the required hardware arrives, the next major phase will consist of:
+
+- PCB manufacturing
+- component soldering
+- USB bench testing
+- sensor validation
+- MicroSD logging validation
+- avionics bay manufacturing
+- full rocket assembly
+- ground testing
+- final flight testing
+
+For now:
+
+# **SHIPPED — AWAITING FUNDING**
+
+<p align="center">
+  <img width="675" height="900" alt="image" src="https://github.com/user-attachments/assets/46421205-73e9-46b5-b13f-b2a4308033a8" />
+</p>
 
 
