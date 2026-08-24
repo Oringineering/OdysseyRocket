@@ -6,7 +6,8 @@ The Odyssey Rocket is a model rocket designed around accessibility, experimentat
 The possibilities are endless! This model can be constructed as a relatively low-cost rocket, with the option to incorporate the Orion Flight Computer module capable of recording flight data such as atmospheric pressure and altitude. This modular approach allows the rocket to remain accessible to beginners, whilst giving them the opportunity to develop advanced skills valuable to the workplace that are FREE for students such as SolidWorks*, KiCad, and OpenRocket.
 
 
-<img width="1810" height="407" alt="image" src="https://github.com/user-attachments/assets/7189b1b5-2779-4cb1-8c89-bebe811244ef" />
+<img width="1781" height="436" alt="image" src="https://github.com/user-attachments/assets/cc69924d-cd73-4ff5-975a-2b057c3f5a8c" />
+
 
 ---
 
