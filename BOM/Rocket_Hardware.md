@@ -6,4 +6,4 @@
 | 4 | 1 | Premium BC Grade Plywood Sheet | 1200 × 810 × 3 mm | Bunnings | Project Panel Plywood | Used for fins and centering ring; 3 mm thickness matches the current OpenRocket design |
 | 5 | 1 | Estes E12-4 Model Rocket Motor | 24 mm, 4 s delay | Estes / Berg's Hobbies | E12-4 | Selected propulsion motor |
 | 6 | 1 | SkyAngle Classic 20 Parachute | 20 in / 50.8 cm | SkyAngle / CS Rocketry | SkyAngle Classic 20 | Primary recovery parachute |
-| 7 | 3.5 m | Shock Cord | 3 mm diameter | eBay | 3 mm Shock Cord | Connects the nose cone, parachute, and rocket body recovery assembly |
+| 7 | 1| Shock Cord | 3 mm diameter | eBay | 3 mm Shock Cord | Connects the nose cone, parachute, and rocket body recovery assembly |
