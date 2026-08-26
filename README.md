@@ -193,7 +193,7 @@ See the [PCB](PCB/Documentation/PCB_OFC_2026-08-23.pdf) and the [Documentation](
 See [BOM](BOM/) for more information.
 
 ## Project Status
-SHIPPED - AWAITING FUNDING
+AWAITING FUNDING
 
 ## Credits
 - Niles55 (Reddit) for his tool on modelling Nose Cones. This served as inspiration for me to pursue the Von Karman Ogive after discerning its properties.
