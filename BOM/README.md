@@ -2,7 +2,7 @@
 
 The estimated total cost of the Odyssey Rocket, including the Orion Flight Computer, PCB fabrication, propulsion system, recovery system, primary rocket hardware, and shipping costs, is approximately:
 
-# **US$294**
+# **US$250**
 
 | Item | Cost |
 |---|---:|
