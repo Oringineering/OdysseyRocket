@@ -208,3 +208,8 @@ AWAITING FUNDING
 - Amazing Automation (YouTube) for his guide on how to place a logo/decal on a PCB.
 - LiterallySaltwater (Discord) for providing assistance with coding
 - My Dad for his endless knowledge and support :)
+
+
+
+
+*SolidWorks is free for students with an education email address
