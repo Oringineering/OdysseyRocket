@@ -499,3 +499,12 @@ For now:
 </p>
 
 
+
+### Final Feedback Amendments
+
+Following project review, two final amendments were incorporated:
+
+- Rocket motors were removed from the funding request because propulsion hardware is treated separately from the fundable project components.
+- Static-pressure vent holes were added to the nose-cone avionics design so that the BMP388 can measure external atmospheric pressure accurately.
+
+These changes were incorporated into the project documentation and final design prior to funding submission.
