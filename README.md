@@ -27,9 +27,10 @@ The possibilities are endless! This model can be constructed as a relatively low
 
 ## Features
 
-- The Orion Flight Computer, a custom PCB that will log acceleration (IMU) and altitude (barometer) data to an onboard SD card.
+- The Orion Flight Computer, a custom nose-cone-mounted PCB that will log acceleration (IMU) and altitude (barometer) data to an onboard MicroSD card, with static-pressure vent holes allowing the BMP388 to measure external atmospheric pressure accurately.
 - 3D-printed PLA von Karman ogive nosecone, custom-fit to a 660x60mm AusPost postal tube body (2mm wall), friction fitted via a 50x55mm shoulder insert.
-- Can safely be launched in a park without breaking Western Australian laws: it must not weigh more than 500g, carry no more than 25g of propellant, be within 5km of an aerodrome, nor exceed an apogee of 400 feet (121.92m).
+- Designed to remain within applicable Western Australian model-rocket operating limits, including a maximum launch mass of 500 g, no more than 25 g of propellant, operation within 5 km of an aerodrome, and an apogee not exceeding 400 ft (121.92 m).
+
 
 ## System Architecture
 
@@ -52,6 +53,8 @@ ODYSSEY ROCKET
 │   └── Commercial model rocket motor
 
 └── Orion Flight Computer
+    ├── Nose-cone avionics bay
+    ├── Static-pressure vent holes
     ├── Arduino Nano
     ├── MPU6050
     ├── BMP388
@@ -74,6 +77,7 @@ ODYSSEY ROCKET
 
 ### Propulsion
 - Commercial model rocket motor
+ > **Funding Note:** Rocket motors are excluded from the current funding request. The Estes E12-4 remains the selected propulsion option for the OpenRocket design and simulations but will be supplied separately.
 
 ### Orion Flight Computer
 - Arduino Nano v3
@@ -82,6 +86,8 @@ ODYSSEY ROCKET
 - Adafruit MicroSD breakout
 - Pololu S13V10F5 5 V step-up/step-down voltage regulator
 - Custom Orion Flight Computer PCB
+- 3D-printed nose-cone avionics housing
+- Static-pressure vent holes for BMP388 atmospheric pressure measurements
 
 ### Firmware
 - Sensor acquisition
