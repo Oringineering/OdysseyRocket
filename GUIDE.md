@@ -25,6 +25,8 @@ Before beginning construction, gather the required components listed in the proj
 - SkyAngle Classic 20 parachute
 - Estes E12-4 model rocket motor
 
+> **Funding Note:** Rocket motors are excluded from the current funding request. The Estes E12-4 remains the selected propulsion option for the OpenRocket design and simulations but will be supplied separately.
+
 Further information can be found in the [Rocket Hardware BOM](BOM/Rocket_Hardware.md).
 
 ### Orion Flight Computer
@@ -196,6 +198,8 @@ Once printing is complete, inspect the nose cone for:
 - Poor fit between the shoulder and body tube
 
 The shoulder should fit securely within the postal tube without requiring excessive force.
+
+If the Orion Flight Computer is being installed, the nose cone must also provide sufficient internal clearance for the avionics housing and static-pressure vent holes described later in this guide.
 
 ---
 
@@ -548,65 +552,72 @@ Once verified, power Orion using the intended flight power system and confirm th
 
 ---
 
-## 14. Build the Avionics Bay Housing
+## 14. Build the Nose-Cone Avionics Bay Housing
 
-The Orion Flight Computer should not be installed as a bare PCB inside the rocket.
+The Orion Flight Computer should not be installed as a bare PCB.
 
-A dedicated **3D-printed avionics sled or enclosure** should be used.
+For Odyssey, Orion is housed within the **nose cone** using a dedicated **3D-printed avionics sled or enclosure**.
 
 The housing should:
 
-- Fit within the internal diameter of the postal tube.
-- Hold the Orion PCB firmly.
-- Use standoffs or spacers to support the PCB.
+- Fit securely within the available internal volume of the nose cone.
+- Hold the Orion PCB firmly using standoffs or spacers.
 - Prevent the flight computer from moving during launch and recovery.
-- Keep the electronics separated from the parachute and shock cord.
+- Remain clear of the M6 RivNut, M6 eye fitting, internal bulkhead, and reinforcing ribs.
 - Provide clearance for the MicroSD card.
-- Provide clearance for the Arduino Nano USB connector.
-- Allow wiring to pass through without being crushed.
-- Remain removable for testing and maintenance.
+- Provide clearance for the Arduino Nano USB connector where practical.
+- Allow wiring to pass through without being crushed or sharply bent.
+- Avoid covering the BMP388 pressure sensor.
+- Remain removable for testing, maintenance, and firmware updates.
 
-A simple layout may use two circular end plates connected by longitudinal rails.
+A simple removable sled is preferred over a separate PVC tube because it can be shaped specifically around the nose-cone geometry while minimising additional mass and lost internal volume.
 
-```text
-BODY TUBE
-┌───────────────────────────────┐
-│                               │
-│   ○=======================○   │
-│      │                 │      │
-│      │   ORION PCB     │      │
-│      │   [========]    │      │
-│      │                 │      │
-│   ○=======================○   │
-│                               │
-└───────────────────────────────┘
-
-○ = printed end plates
-= = structural rails
-```
-
-A PVC tube could also be used, but this would introduce additional mass and wall thickness while reducing the available internal volume.
-
-For Odyssey, a **custom 3D-printed avionics sled is the preferred solution**.
+Before finalising the housing, confirm that the complete Orion assembly fits inside the nose cone without interfering with the recovery attachment or preventing the nose cone from seating correctly in the body tube.
 
 ---
 
-## 15. Install Orion in the Rocket
+## 15. Barometer Ventilation
 
-Once the avionics bay has been assembled and tested, install it securely within the rocket body.
+The Orion Flight Computer uses a **BMP388 barometric pressure sensor** to estimate altitude.
+
+Because Orion is housed inside the nose cone, the avionics compartment must not be completely sealed. Several small **static-pressure vent holes** should therefore be added through the nose-cone wall adjacent to the avionics bay.
+
+The vent holes should:
+
+- Be distributed around the circumference of the nose cone where practical.
+- Be positioned adjacent to the Orion avionics bay.
+- Provide direct pressure equalisation between the internal avionics compartment and the surrounding atmosphere.
+- Remain clear of the M6 recovery attachment, internal bulkhead, and reinforcing ribs.
+- Avoid being obstructed by the avionics housing.
+- Avoid locations immediately beside large protrusions or regions of heavily disturbed airflow where practical.
+
+The vent holes should be added only after the final position of the Orion Flight Computer and its housing has been established.
+
+These openings allow the internal pressure around the BMP388 to follow changes in external atmospheric pressure more closely, improving the accuracy of altitude measurements.
+
+After the vent holes have been added, check that they are clean, unobstructed, and open directly into the avionics cavity.
+
+---
+
+## 16. Install Orion in the Nose Cone
+
+Once the avionics housing has been assembled, bench-tested, and checked for clearance, install it securely within the nose cone.
 
 Ensure that:
 
 - The housing cannot move freely.
 - The PCB remains fixed within the housing.
+- The BMP388 remains exposed to the ventilated internal cavity.
+- The static-pressure vent holes are not blocked by the housing, wiring, or PCB.
 - The MicroSD card remains accessible where practical.
 - Wiring cannot contact sharp edges.
-- The avionics bay does not interfere with the parachute or shock cord.
-- The assembly can still be removed for maintenance.
+- The avionics bay does not interfere with the M6 RivNut, eye fitting, internal ribs, or recovery attachment.
+- The nose cone can still seat correctly within the body tube.
+- The assembly can be removed for maintenance where practical.
 
 ---
 
-## 16. Final Assembly
+## 17. Final Assembly
 
 Once the major components have been completed, inspect the entire rocket.
 
@@ -621,13 +632,14 @@ Check:
 - RivNut recovery attachment
 - Shock cord
 - Parachute
-- Orion avionics bay, if installed
+- Orion nose-cone avionics bay, if installed
+- Static-pressure vent holes clear and unobstructed
 
 Nothing inside the rocket should move freely during flight.
 
 ---
 
-## 17. Update the OpenRocket Model
+## 18. Update the OpenRocket Model
 
 The final physical rocket will differ slightly from the original OpenRocket model.
 
@@ -648,9 +660,9 @@ The current OpenRocket configuration shown during development produces approxima
 | Parameter | Current Simulation |
 |---|---:|
 | Motor | Estes E12-4 |
-| Apogee | 121 m |
-| Maximum velocity | 38.7 m/s |
-| Maximum acceleration | 67.4 m/s² |
+| Apogee | 121.28 m |
+| Maximum velocity | 38.74 m/s |
+| Maximum acceleration | 67.35 m/s² |
 | Stability | 1.71 cal |
 
 These values should be treated as **simulation results rather than guaranteed flight performance**.
@@ -659,7 +671,7 @@ Re-run the simulation using the final measured configuration before flight.
 
 ---
 
-## 18. Ground Testing
+## 19. Ground Testing
 
 Before flight, complete basic ground testing.
 
@@ -674,12 +686,14 @@ This should include:
 - Sensor initialisation
 - MicroSD logging verification
 - Avionics-bay retention testing
+- Static-pressure vent-hole inspection
+- BMP388 pressure-response testing with Orion installed in the ventilated nose cone
 
 The Wokwi simulation validates the general firmware architecture but does not replace testing of the physical Orion hardware.
 
 ---
 
-## 19. Launch Preparation
+## 20. Launch Preparation
 
 Once construction, simulation and ground testing have been completed, the rocket can progress to launch preparation.
 
@@ -690,6 +704,7 @@ Before launching:
 - Confirm that the launch location is suitable.
 - Check applicable model rocket and aviation requirements.
 - Inspect the rocket immediately before flight.
+- Confirm that the nose-cone pressure vents remain unobstructed.
 - Follow the motor manufacturer's preparation and ignition instructions.
 
 ---
